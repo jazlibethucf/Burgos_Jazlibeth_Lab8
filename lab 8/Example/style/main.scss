@@ -6,10 +6,9 @@
 @import "variables";
 @import "mixins";
 
-.list{
   //includes the mixin for list format
   @include liformat;
-}
+
 //includes the mixin for grid format
 @include grid;
 /*formats the grid item*/
