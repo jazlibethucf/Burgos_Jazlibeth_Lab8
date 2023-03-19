@@ -22,7 +22,7 @@ ul li {
 
 .mixinTest {
   background-color: coral;
-  font-size: px;
+  font-size: 25px;
 }
 
 /*media query for grid*/
@@ -45,4 +45,13 @@ ul li {
   background-color: #585858;
   border: 1px solid #745b5f;
   margin: 10px;
+}
+
+.mychanges {
+  font-family: Didot;
+  font-size: 45px;
+  border-style: double;
+  border-color: rgb(72, 38, 136);
+  background-color: rgba(235, 98, 116, 0.7);
+  border-width: 10px;
 }/*# sourceMappingURL=main.css.map */

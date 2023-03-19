@@ -32,6 +32,17 @@
 
   }
 
+//my new mixin
+@mixin mylabchanges{
+  font-family: $myfont-family;
+  font-size: $mytext-size;
+  border-style: $myborder-style;
+  border-color: $myborder-color;
+  background-color: $myborder-bgcolor;
+  border-width: $myborder-width;
+}
+
+
 //grid mixin
 @mixin grid{
   /*media query for grid*/

@@ -9,6 +9,7 @@
   //includes the mixin for list format
   @include liformat;
 
+//demo changes
   .mixinTest {
   @include lifeFormatTwo;
   }
@@ -21,3 +22,8 @@
       border: 1px solid $bgcolorborder;
       margin:10px;
     }
+
+// my changes
+   .mychanges{
+   @include mylabchanges;
+   }
