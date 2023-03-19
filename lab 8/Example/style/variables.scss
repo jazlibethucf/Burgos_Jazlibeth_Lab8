@@ -1,10 +1,10 @@
 //typography
-$ulsize: 30px;
+$ulsize: 55px;
 $lisize: round($ulsize*.8);
 $ulfont: Georgia;
 
 //colors
-$ulcolor: #AFB4C3;
+$ulcolor: #e667a2;
 $licolor: complement($ulcolor);
 $licolordiff: invert($ulcolor);
 $bgcolorgrit: invert(grayscale($ulcolor));
@@ -13,3 +13,5 @@ $bgcolorborder: adjust-hue($bgcolorgr, 20);
 
 //screensize
 $screen: 1000px;
+
+/*My Variables*/

@@ -9,6 +9,10 @@
   //includes the mixin for list format
   @include liformat;
 
+  .mixinTest {
+  @include lifeFormatTwo;
+  }
+
 //includes the mixin for grid format
 @include grid;
 /*formats the grid item*/

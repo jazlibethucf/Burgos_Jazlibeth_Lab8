@@ -1,22 +1,28 @@
 /*the standard CSS comments will show up on the output
 .css file*/
-.list {
-  /*formats the lsit*/
-}
-.list ul {
-  font-size: 30px;
+/*My Variables*/
+/*formats the lsit*/
+ul {
+  font-size: 55px;
   font-family: Georgia;
-  color: #AFB4C3;
+  color: #e667a2;
 }
-.list ul li {
-  font-size: 24px;
+ul li {
+  font-size: 44px;
 }
-.list .standard {
-  color: #c3beaf;
+
+.standard {
+  color: #67e6ab;
 }
-.list .different {
-  color: #504b3c;
-  background-color: #c3beaf;
+
+.different {
+  color: #19985d;
+  background-color: #67e6ab;
+}
+
+.mixinTest {
+  background-color: coral;
+  font-size: px;
 }
 
 /*media query for grid*/
@@ -24,19 +30,19 @@
   .grid {
     display: grid;
     grid-template-columns: auto;
-    background-color: #5b5c5f;
+    background-color: #745b67;
   }
 }
 @media screen and (min-width: 1000px) {
   .grid {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #5b5c5f;
+    background-color: #745b67;
   }
 }
 /*formats the grid item*/
 .grid-item {
-  background-color: #464646;
-  border: 1px solid #5b5b5f;
+  background-color: #585858;
+  border: 1px solid #745b5f;
   margin: 10px;
 }/*# sourceMappingURL=main.css.map */

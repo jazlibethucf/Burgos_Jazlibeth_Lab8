@@ -23,8 +23,15 @@
     color:$licolordiff;
     background-color:$licolor;
   }
-
 }
+
+//demo changes
+  @mixin lifeFormatTwo{
+    background-color:coral;
+    font-size: px;
+
+  }
+
 //grid mixin
 @mixin grid{
   /*media query for grid*/
